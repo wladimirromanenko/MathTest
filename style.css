@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background: rgba(125, 46, 80, 0.7);
     text-wrap: balance;
@@ -79,4 +83,45 @@ p:hover {
 .five {
     text-transform: capitalize;
     letter-spacing: 1.1em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+	background: #D8E3AB;
+	height: 70px;
+    position: sticky;
+}
+.title {
+    font-size: 36px;
+    padding-top: 5px;
+    padding-left: 15%;
+
+    color: blueviolet;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px auto;
+    list-style: none;
+    position: relative;
+    text-align: right;
+}
+li {
+    padding: 10px;
+}
+.logo {
+    float: left;
+
+
+}
+form {
+    display: inline;
+    padding-top: 15px;
+    margin: 0 auto;
+
+    
+
 }
